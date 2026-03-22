@@ -1,23 +1,10 @@
 {
   "items": [
     {
-      "id": "release-0.3.4",
-      "title": "Scrubbit 0.3.4",
-      "description": "Smarter entity extraction, enhanced Review page with search and collapsible categories, and improved Ollama connection handling.",
-      "date": "2026-03-19"
-    },
-    {
-      "id": "tip-decode-mode",
-      "title": "Did you know? Decode Mode",
-      "description": "Paste anonymized text and decode it back using your project glossary.",
-      "date": "2026-02-20",
-      "link": "/decode"
-    },
-    {
-      "id": "spotlight-chat",
-      "title": "Chat with anonymized docs",
-      "description": "Ask questions about your documents while keeping all PII redacted.",
-      "date": "2026-02-15"
+      "id": "release-0.3.5",
+      "title": "Scrubbit 0.3.5",
+      "description": "New AI privacy guide and under-the-hood improvements.",
+      "date": "2026-03-22"
     }
   ]
 }

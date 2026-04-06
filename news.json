@@ -1,16 +1,15 @@
 {
   "items": [
     {
-      "id": "release-0.4.2",
-      "title": "Scrubbit 0.4.2",
-      "description": "New privacy controls, Windows stability, and glossary improvements.",
-      "date": "2026-03-29",
+      "id": "release-0.5.0",
+      "title": "Scrubbit 0.5.0",
+      "description": "Native text recognition, smarter detection, and a redesigned Help Center.",
+      "date": "2026-04-06",
       "bullets": [
-        "Zero Data Retention mode for cloud AI chat",
-        "More reliable database engine (SQLite replaces Kuzu)",
-        "Redesigned Local AI status and troubleshooting",
-        "Glossary select-all, quick-access modal, and bulk delete",
-        "New articles: Robot-Client Privilege and Security Architecture"
+        "Native OCR replaces Docling — faster startup, smaller install, better Windows compatibility",
+        "Improvements in the Anonymization wizard and detection process",
+        "Redesigned Help Center",
+        "Bug fixes"
       ]
     }
   ]

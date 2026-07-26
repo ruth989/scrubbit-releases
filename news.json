@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "id": "release-0.6.6",
+      "title": "Scrubbit 0.6.6",
+      "description": "Command-line fixes: install now works on Apple Silicon Macs, and scrubbing a file no longer crashes.",
+      "date": "2026-07-26",
+      "bullets": [
+        "Fixed: the scrubbit command line now installs on Apple Silicon Macs",
+        "Fixed: scrubbing a PDF or other file from the command line no longer crashes",
+        "Clearer command-line help for file paths with spaces"
+      ]
+    },
+    {
       "id": "release-0.6.0",
       "title": "Scrubbit 0.6.0",
       "description": "A command-line tool, a new background engine, and a big reliability pass.",

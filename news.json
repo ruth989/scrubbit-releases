@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "release-0.7.0",
+      "title": "Scrubbit 0.7.0",
+      "description": "Everything Scrubbit stores on your computer is now encrypted. Your existing work is upgraded automatically, once.",
+      "date": "2026-08-04",
+      "bullets": [
+        "Everything Scrubbit stores on this computer is now encrypted on disk",
+        "Your existing projects upgrade automatically, in one step",
+        "The encryption key is held by the Keychain on Mac and by DPAPI on Windows",
+        "Fixed: on Windows, typing scrubbit now runs the command instead of opening the app",
+        "Fixed: scrubbit ping reports the real version"
+      ]
+    },
+    {
       "id": "release-0.6.6",
       "title": "Scrubbit 0.6.6",
       "description": "Command-line fixes: install now works on Apple Silicon Macs, and scrubbing a file no longer crashes.",
@@ -26,3 +39,4 @@
     }
   ]
 }
+

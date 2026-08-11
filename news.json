@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "release-0.7.1",
+      "title": "Scrubbit 0.7.1",
+      "date": "2026-08-11",
+      "description": "The false encryption warning is gone, and format-preserved export works again.",
+      "bullets": [
+        "Scrubbit no longer says your projects are unprotected right after protecting them",
+        "Scrubbit finishes the 0.7.0 upgrade by itself, and deletes the readable copy of your projects it left behind",
+        "Format-preserved export works again — a DOCX comes out as a DOCX",
+        "The command line reports the real number of protected terms",
+        "The scrubbit command explains itself when you have moved the app",
+        "Reading your project list no longer changes your project's file format",
+        "A failed download tells you, instead of quietly handing you a Markdown file",
+        "The What's New card reads as text, and repairs the copy already on your computer"
+      ]
+    },
+    {
       "id": "release-0.7.0",
       "title": "Scrubbit 0.7.0",
       "description": "Everything Scrubbit stores on your computer is now encrypted. Your existing work is upgraded automatically, once.",
@@ -39,4 +55,3 @@
     }
   ]
 }
-

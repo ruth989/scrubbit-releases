@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "id": "release-0.8.0",
+      "title": "Scrubbit 0.8.0",
+      "date": "2026-08-18",
+      "description": "AI agents can scrub files for you from the terminal, without ever seeing your data.",
+      "bullets": [
+        "Create an agent in Settings → Agents: it gets its own access key and works in exactly one project",
+        "Agents are blind by design — they see anonymous tokens and project ids, never your original data",
+        "Settings → Command line collects everything for the terminal: install, an on/off switch, and setup steps",
+        "Export a scrubbed file from the terminal: the copy always lands in the project export folder",
+        "New CLI guide — in the app under Help → Command line, and in the terminal via scrubbit guide",
+        "The project activity feed names who did each action — you or the agent nickname"
+      ]
+    },
+    {
       "id": "release-0.7.1",
       "title": "Scrubbit 0.7.1",
       "date": "2026-08-11",

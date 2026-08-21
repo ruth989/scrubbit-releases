@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "release-0.8.1",
+      "title": "Scrubbit 0.8.1",
+      "date": "2026-08-21",
+      "description": "Scheduled scrubbing and a full agent command line: the app scrubs an intake folder on a schedule, and agents read the results from the terminal — tokens only, never your original values.",
+      "bullets": [
+        "Automations: pick an intake folder in a project's settings — Scrubbit anonymizes every file in it on your schedule, into the export folder",
+        "A run missed while the app was closed happens as soon as the app opens; the feed shows the real time",
+        "scrubbit batch runs the same batch from the terminal, on the agent's own schedule",
+        "scrubbit doc list and doc read: an agent reads a project's anonymized documents — every glossary word appears as its token",
+        "scrubbit activity list: an agent reads the activity log from the terminal, with no original values in it",
+        "scrubbit whoami tells a key holder which project its key opens, and -p is now optional on one-project keys",
+        "--term adds one-off words to anonymize in a single scrub, without opening the app",
+        ".txt and .md uploads no longer fail with error 500"
+      ]
+    },
+    {
       "id": "release-0.8.0",
       "title": "Scrubbit 0.8.0",
       "date": "2026-08-18",

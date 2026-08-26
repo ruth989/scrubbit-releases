@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "id": "release-0.8.2",
+      "title": "Scrubbit 0.8.2",
+      "date": "2026-08-26",
+      "description": "Scrubbit is honest when something goes wrong: a failed file names its cause, and a network outage no longer breaks the window or your Cloud AI key.",
+      "bullets": [
+        "Scrubbit no longer contacts Google when it launches — the app's lettering now ships inside the app",
+        "The blank white window on a dead network is gone; Scrubbit paints with no network at all",
+        "A file that fails in a scheduled run names its cause instead of \"Something went wrong\"",
+        "A scanned page or image says to open the file in the Scrubbit app, because automations have no OCR",
+        "The Cloud AI status re-checks itself when your network returns, with a Try again button where it could not check",
+        "A provider outage, a rate limit, or a hotel Wi-Fi page can no longer delete your saved Cloud AI key",
+        "The glossary seed screen returns you to the screen you came from, keeping your file and settings",
+        "The wizard, the automation dialog, and the run row all warn you when a glossary is empty",
+        "The app opens much faster — boot loads 2 KB instead of about 26 MB",
+        "A crash on any screen shows a recovery screen with a Reload button, never a blank window"
+      ]
+    },
+    {
       "id": "release-0.8.1",
       "title": "Scrubbit 0.8.1",
       "date": "2026-08-21",

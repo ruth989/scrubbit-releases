@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "release-0.8.4",
+      "title": "Scrubbit 0.8.4",
+      "date": "2026-08-31",
+      "description": "The agent door opens: connect Claude Desktop or any MCP tool to a project, and the app answers every action. Everything an AI app reads is the anonymized version.",
+      "bullets": [
+        "Connect an AI app from the new Agents page — for Claude Desktop, Scrubbit saves a connector file and the key lands in the OS keychain, never in a settings file",
+        "The connector's tools are blind: tokens and stand-in names only, never original values",
+        "Connect the same project twice and the earlier Connect's key stops working, so old keys do not pile up",
+        "The terminal's --key flag is gone — the SCRUBBIT_KEY environment variable is the only way to hand a key to the terminal",
+        "Before any chat request leaves for the cloud model, the engine re-scans the outbound payload and refuses the send if a sensitive value is present",
+        "The wizard's Process button always answers, keeps your pasted text, and names the reason when it cannot start",
+        "Each project has its own Automations page, and the empty-glossary warning stands on it with seed links",
+        "Rename joined the file menus; a document that fails to load shows a Try again button",
+        "The activity feed names every scrub's document and shows every count, including 0 entities"
+      ]
+    },
+    {
       "id": "release-0.8.2",
       "title": "Scrubbit 0.8.2",
       "date": "2026-08-26",
